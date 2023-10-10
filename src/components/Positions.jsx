@@ -1,0 +1,81 @@
+import { positions } from "../utils/constants";
+
+const Positions = () => {
+	return (
+		<div className="md:px-28 max-w-7xl mx-auto pb-10 pt-16" id="jobs">
+			<h1 className="w-full text-center mb-5 text-[45px] font-semibold">
+				Open Positions
+			</h1>
+			<div className="flex justify-center items-center mb-12">
+				<button className="btn btn-outline hover:bg-[#0018b7] hover:shadow-[0px_0px_30px_12px_#0018b7] transition ease-in-out duration-500  text-blue-700 border-2 hover:border-[#0018b7] text-xl normal-case ">
+					Ideaflow.io Engineering Hiring Update 2023
+				</button>
+			</div>
+
+			<div className="flex flex-col gap-7  w-full border-2 border-blue-600 bg-[#101010] rounded-2xl px-8 py-8 cursor-pointer hover:shadow-[0px_0px_30px_18px_#0018b7] transition ease-in-out duration-500 mb-10">
+				<div className="flex flex-col justify-center items-start gap-0 ">
+					<div className="text-[35px] font-semibold leading-10">
+						Full Stack Engineer
+					</div>
+					<div className="text-[20px] font-normal">Remote</div>
+				</div>
+				<div>
+					<p className="text-[22px] font-light">
+						Who has significant frontend experience and is up to the challenge
+						of writing something as complex and high performance as an IDE in
+						JavaScript.
+					</p>
+				</div>
+				<div>
+					<button className="btn btn-outline hover:bg-[#0018b7]  transition ease-in-out duration-500  text-blue-700 border-2 hover:border-[#0018b7] text-lg">
+						Apply Now
+					</button>
+				</div>
+			</div>
+
+			<h1 className="mb-10 w-full text-center text-[22px] font-light">
+				&quot;We need to create extensions of our ability to make sense of the
+				world together.&quot; ~Jerry Michalski
+			</h1>
+			<div className="flex flex-col md:flex-row justify-center flex-wrap gap-10 items-center ">
+				{positions.map((item, index) => (
+					<div
+						key={index}
+						className="flex flex-col gap-7  w-[450px] border-2 border-blue-600 bg-[#101010] rounded-2xl px-8 py-8 cursor-pointer hover:shadow-[0px_0px_30px_18px_#0018b7] transition ease-in-out duration-500"
+					>
+						<div className="flex flex-col justify-center items-start gap-0 ">
+							<div className="text-[35px] font-semibold leading-10">
+								{item.title}
+							</div>
+							<div className="text-[20px] font-normal">{item.location}</div>
+						</div>
+						<div>
+							<p className="text-[22px] font-light">{item.desc}</p>
+						</div>
+						<div>
+							<button className="btn btn-outline hover:bg-[#0018b7]  transition ease-in-out duration-500  text-blue-700 border-2 hover:border-[#0018b7] text-lg">
+								Apply Now
+							</button>
+						</div>
+					</div>
+				))}
+			</div>
+			<h1 className="my-10 w-full text-center text-[22px] font-light">
+				&ldquo;Art is that which holds your attention beyond
+				practicality.&ldquo;
+			</h1>
+			<h1 className="mt-16 mb-8 w-full text-center text-[22px] font-light">
+				We believe diverse teams are the most effective – female and minority
+				candidates are strongly encouraged to apply!
+			</h1>
+			<div className="flex justify-center items-center gap-5">
+				<span className="text-2xl">Further Reading:</span>
+				<button className="btn btn-outline hover:bg-[#0018b7] hover:shadow-[0px_0px_30px_12px_#0018b7] transition ease-in-out duration-500  text-blue-700 border-2 hover:border-[#0018b7] text-lg">
+					Click Here
+				</button>
+			</div>
+		</div>
+	);
+};
+
+export default Positions;
