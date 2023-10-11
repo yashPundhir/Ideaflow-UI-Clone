@@ -6,8 +6,10 @@ import inv3 from "../assets/inv3.png";
 const Investors = () => {
 	return (
 		<div className="flex flex-col justify-center  gap-10 items-center md:px-24 max-w-7xl mx-auto py-20">
-			<h1 className="text-4xl">Backed by world-class investors and partners</h1>
-			<div className="flex justify-center items-center gap-28">
+			<h1 className="text-4xl px-10 md:px-0 text-center ">
+				Backed by world-class investors and partners
+			</h1>
+			<div className="flex md:flex-row flex-col justify-center md:flex-wrap items-center xl:gap-28 lg:gap-20 md:gap-14 gap-5 ">
 				<div>
 					<img className="w-[77px] h-[85px]" src={inv1} alt="inv1" />
 				</div>

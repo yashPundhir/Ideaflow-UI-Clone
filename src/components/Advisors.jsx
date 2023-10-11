@@ -3,7 +3,7 @@ import { advisors } from "../utils/constants";
 
 const Advisors = () => {
 	return (
-		<div className="md:px-28 max-w-7xl mx-auto pb-10 pt-16">
+		<div className="md:px-28 px-10 max-w-7xl mx-auto pb-10 pt-16">
 			<h1 className="w-full text-center mb-12 text-[45px] font-semibold">
 				Advisors
 			</h1>
@@ -11,7 +11,7 @@ const Advisors = () => {
 				{advisors.map((item, index) => (
 					<div
 						key={index}
-						className="w-[360px] border-2 border-blue-600 bg-[#101010] rounded-2xl px-5 py-5 cursor-pointer hover:shadow-[0px_0px_30px_18px_#0018b7] transition ease-in-out duration-500"
+						className="md:w-[360px] w-[320px] border-2 border-blue-600 bg-[#101010] rounded-2xl px-5 py-5 cursor-pointer hover:shadow-[0px_0px_30px_18px_#0018b7] transition ease-in-out duration-500"
 					>
 						<div className="flex justify-start items-center gap-0 ">
 							<div className="w-1/2">
