@@ -3,13 +3,13 @@ import info2 from "../assets/info22.jpg";
 
 const AutoSuggest = () => {
 	return (
-		<div className="flex flex-col-reverse md:flex-row justify-center md:gap-20 gap-10 items-center md:px-28 px-16 max-w-7xl mx-auto py-10">
-			<div className="flex flex-col justify-center md:items-start items-center gap-2 xl:w-[350px] lg:w-[300px] md:w-[250px] w-full px-16 md:px-0">
-				<h1 className="xl:text-[40px] md:text-[35px] text-[30px] leading-[45px] text-center md:text-left ">
+		<div className="flex flex-col-reverse md:flex-row justify-center md:gap-20 gap-10 items-center md:px-28 px-0 max-w-7xl mx-auto py-10">
+			<div className="flex flex-col justify-center md:items-start items-center gap-2 xl:w-[350px] lg:w-[300px] md:w-[250px] w-full px-8 md:px-0 ">
+				<h1 className="xl:text-[40px] md:text-[35px] text-[30px] md:leading-[45px] leading-[35px] text-center md:text-left ">
 					The auto-suggest layer for human thinking
 				</h1>
 
-				<div className="border-2 border-white xl:w-[310px] lg:w-[240px] md:w-[200px] w-full mt-3 mb-5"></div>
+				<div className="border-2 border-white xl:w-[310px] lg:w-[240px] md:w-[200px] w-[270px] mt-3 mb-5"></div>
 				<p className="md:text-xl text-[17px] text-center md:text-left leading-6 font-normal  xl:w-[300px] lg:w-[250px] md:w-[200px] w-full px-7 md:px-0 mb-4">
 					Connect fragments of information from siloed sources faster than ever
 					before.
@@ -27,9 +27,9 @@ const AutoSuggest = () => {
 					</a>
 				</button>
 			</div>
-			<div className="md:w-[600px] w-[380px] sm:px-10 px-5 md:px-0">
+			<div className="md:w-[600px] w-[340px] sm:px-10 px-5 md:px-0">
 				<img
-					className="md:w-[600px] w-[380px] rounded-[50px] "
+					className="md:w-[600px] w-[340px] rounded-[50px] "
 					src={info2}
 					alt="puzzles-img"
 				/>

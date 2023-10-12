@@ -5,7 +5,7 @@ import twitter from "../assets/twitter.jpg";
 
 const Footer = () => {
 	return (
-		<div className="flex flex-col justify-center items-stretch gap-20  md:px-24  max-w-7xl mx-auto mt-20 mb-5 py-10  rounded-[50px]  ">
+		<div className="flex flex-col justify-center items-stretch gap-20  md:px-24  max-w-7xl mx-auto md:mt-20 mt-0 mb-5 py-10  rounded-[50px]  ">
 			<div className="flex md:flex-row flex-col justify-center flex-wrap md:gap-20 gap-10 md:items-start items-center md:pr-10">
 				<div className="mt-5 w-fit">
 					<a

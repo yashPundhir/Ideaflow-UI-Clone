@@ -2,7 +2,7 @@
 
 const Mission = () => {
 	return (
-		<div className="flex flex-col justify-center gap-5 items-start md:px-20 px-14 xl:w-[1100px] lg:w-[900px] md:w-[600px] w-[380px] max-w-7xl mx-auto my-20 py-10  rounded-[50px]  bg-gradient-to-b from-[rgba(0,24,183,0.35)] via-black to-[rgba(0,24,183,0.35)] border-2 border-blue-600 hover:shadow-[0px_0px_30px_22px_#0018b7] transition ease-in-out duration-500">
+		<div className="flex flex-col justify-center gap-5 items-start md:px-20 px-14 xl:w-[1100px] lg:w-[900px] md:w-[600px] w-[340px] max-w-7xl mx-auto my-20 py-10  md:rounded-[50px] rounded-[25px]  bg-gradient-to-b from-[rgba(0,24,183,0.35)] via-black to-[rgba(0,24,183,0.35)] border-2 border-blue-600 hover:shadow-[0px_0px_30px_22px_#0018b7] transition ease-in-out duration-500">
 			<h1 className="md:text-[45px] text-[35px]  font-semibold text-center w-full">
 				Our mission
 			</h1>

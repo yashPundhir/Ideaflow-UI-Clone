@@ -11,13 +11,13 @@ const Future = () => {
 	}
 
 	return (
-		<div className="flex flex-col-reverse md:flex-row justify-center gap-10 items-center md:px-24 px-10 max-w-7xl mx-auto pt-24">
-			<div className="flex flex-col justify-center md:items-start items-center text-center md:text-left gap-5 xl:w-[400px] lg:w-[350px] md:w-[300px] w-full px-5 md:px-0 ">
-				<h1 className="lg:text-[45px] md:text-[35px] text-[30px] leading-[55px] font-bold ">
+		<div className="flex flex-col-reverse md:flex-row justify-center gap-10 items-center md:px-24 px-5 max-w-7xl mx-auto pt-24">
+			<div className="flex flex-col justify-center md:items-start items-center text-center md:text-left gap-5 xl:w-[400px] lg:w-[350px] md:w-[300px] w-full px-0 md:px-0 ">
+				<h1 className="lg:text-[45px] md:text-[35px] text-[30px] md:leading-[55px] leading-[40px] font-bold ">
 					Help Us Build the Future of the Web
 				</h1>
 
-				<p className="md:text-xl text-base leading-6 font-normal  xl:w-[380px] lg:w-[330px] md:w-[280px] w-full px-5 md:px-0 mx-auto mt-2">
+				<p className="md:text-xl text-base leading-6 font-normal  xl:w-[380px] lg:w-[330px] md:w-[280px] w-full px-4 md:px-0 mx-auto mt-2">
 					“[Ideaflow] is a key step to realizing the potential of the Web as a
 					medium for collective intelligence.”
 				</p>

@@ -6,7 +6,7 @@ const Hiring = () => {
 	}
 
 	return (
-		<div className="flex flex-col justify-center gap-5 items-center md:px-28 lg:w-[1000px] md:w-[700px] sm:w-[450px] w-[350px] max-w-7xl mx-auto my-10 py-10  rounded-[50px]  bg-gradient-to-b from-[rgba(0,24,183,0.35)] via-black to-[rgba(0,24,183,0.35)] border-2 border-blue-600 hover:shadow-[0px_0px_30px_22px_#0018b7] transition ease-in-out duration-500">
+		<div className="flex flex-col justify-center gap-5 items-center md:px-28 lg:w-[1000px] md:w-[700px] sm:w-[450px] w-[330px] max-w-7xl mx-auto my-10 py-10  md:rounded-[50px] rounded-[25px]  bg-gradient-to-b from-[rgba(0,24,183,0.35)] via-black to-[rgba(0,24,183,0.35)] border-2 border-blue-600 hover:shadow-[0px_0px_30px_22px_#0018b7] transition ease-in-out duration-500">
 			<h1 className="md:text-[45px] sm:text-[30px] text-[25px]">
 				We&apos;re Hiring Key Roles
 			</h1>
