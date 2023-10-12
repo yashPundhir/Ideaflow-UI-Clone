@@ -1,8 +1,16 @@
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+
 function App() {
 	return (
-		<div>
-			<h2>HELLO WORLD</h2>
-		</div>
+		<>
+			<Navbar />
+			<Outlet />
+			<Footer />
+			<Sidebar />
+		</>
 	);
 }
 
